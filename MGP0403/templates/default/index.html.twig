@@ -1,0 +1,30 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Home Page{% endblock %}
+
+{% block body %}
+<h1>Welcome To Tradesmate!</h1>
+
+  <p> Welcome to TM</p>
+
+  <h3>Here is a list of trades provided </h3>
+  <ul>{% for title in trade %}
+      <li>
+        {{ title }}
+      </li>
+    {% endfor %}</ul>
+
+
+
+
+
+
+
+        <img src="../images/plumbing.png" alt="Plumbing">
+
+
+
+
+
+
+{% endblock %}
